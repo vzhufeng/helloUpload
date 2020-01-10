@@ -1,0 +1,63 @@
+.ecloud-comp-upload-upload,
+.ecloud-comp-upload-preview {
+  display: inline-block;
+}
+
+.ecloud-comp-upload-upload {
+  width: 80px;
+  height: 80px;
+  border: 2px dashed #ddd;
+  text-align: center;
+  font-size: 36px;
+  color: #ddd;
+  cursor: pointer;
+  overflow: hidden;
+  line-height: 78px;
+  text-decoration: none;
+  position: relative;
+
+  input {
+    opacity: 0;
+    width: 80px;
+    height: 80px;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+.ecloud-comp-upload-preview-item {
+  display: inline-block;
+  position: relative;
+
+  .preview-upload-pic {
+    display: inline-block;
+    object-fit: contain;
+  }
+
+  .delete-upload-pic {
+    font-size: 12px;
+    display: none;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    cursor: pointer;
+    text-align: center;
+    top: 0;
+    left: 0;
+  }
+
+  &:hover {
+
+    .delete-upload-pic {
+      display: inline-block;
+    }
+
+    .preview-upload-pic {
+      opacity: 0.5;
+    }
+  }
+}
+

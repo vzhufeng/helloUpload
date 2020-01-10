@@ -1,0 +1,50 @@
+{
+  "name": "hello-upload",
+  "version": "0.0.1",
+  "description": "a react component, a upload component",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "scripts": {
+    "build": "rm -rf ./dist && rollup -c",
+    "dev": " rm -rf ./dist && rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vzhufeng/helloUpload.git"
+  },
+  "keywords": [
+    "react component",
+    "upload component",
+    "upload"
+  ],
+  "author": "vzhufeng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vzhufeng/helloUpload/issues"
+  },
+  "homepage": "https://github.com/vzhufeng/helloUpload#readme",
+  "peerDependencies": {
+    "react": "^15.0.0 || ^16.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.5",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "cross-env": "^5.1.4",
+    "node-sass": "^4.12.0",
+    "react": "^16.4.1",
+    "rollup-plugin-babel": "^3.0.7",
+    "rollup-plugin-commonjs": "^9.1.3",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-peer-deps-external": "^2.2.0",
+    "rollup-plugin-postcss": "^1.6.2",
+    "rollup-plugin-terser": "^5.1.1",
+    "rollup-plugin-url": "^1.4.0"
+  },
+  "files": [
+    "dist"
+  ]
+}
